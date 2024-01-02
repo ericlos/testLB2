@@ -1,5 +1,5 @@
 name: Manual Run WEB Tests Desafio
-run-name: Manual -On Push - Web Tets Desafio
+run-name: Manual - Web Tests Desafio
 on:
   workflow_dispatch:
     inputs:
@@ -20,8 +20,6 @@ jobs:
   web-tests:
     runs-on: ubuntu-20.04
     permissions: write-all #permissions para a toke 
-
-
     steps:
       - name: Chechout
         uses: actions/checkout@v3
