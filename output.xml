@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240101 21:44:05.736" rpa="false" schemaversion="4">
+<suite id="s1" name="Serve-Rest-Front" source="c:\testLB2\tests\serve-rest-front.robot">
+<test id="s1-t1" name="Login com sucesso Serve Rest Front" line="7">
+<kw name="Abrir o navegador" library="serve-rest-front">
+<kw name="New Browser" library="Browser">
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20240101 21:44:08.742" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\testLB2\\browser\\traces\\72e17832-5b7d-4cd9-9fa6-94b4191452e3"}</msg>
+<msg timestamp="20240101 21:44:12.151" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\testLB2\\browser\\traces\\72e17832-5b7d-4cd9-9fa6-94b4191452e3"}</msg>
+<status status="PASS" starttime="20240101 21:44:08.742" endtime="20240101 21:44:12.151"/>
+</kw>
+<kw name="Uuid 4" library="FakerLibrary">
+<var>${TRACE_NAME}</var>
+<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
+<msg timestamp="20240101 21:44:12.153" level="INFO">${TRACE_NAME} = 80c9f643-a8dd-4037-a1d1-41b61e582cad</msg>
+<status status="PASS" starttime="20240101 21:44:12.153" endtime="20240101 21:44:12.153"/>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<var>${NOW}</var>
+<arg>result_format=%d-%m-%Y_%H%M%S</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<msg timestamp="20240101 21:44:12.154" level="INFO">${NOW} = 01-01-2024_214412</msg>
+<status status="PASS" starttime="20240101 21:44:12.153" endtime="20240101 21:44:12.154"/>
+</kw>
+<kw name="New Context" library="Browser">
+<arg>viewport={'width': 1200, 'height': 800}</arg>
+<arg>tracing=${OUTPUT_DIR}/evidencies/traces/${NOW}/${TRACE_NAME}.zip</arg>
+<arg>recordVideo={'dir':'${OUTPUT_DIR}/evidencies/videos/${NOW}'}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<msg timestamp="20240101 21:44:12.161" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "recordVideo": {
+    "dir": "C:\\testLB2\\browser\\video\\\testLB2\\evidencies\\videos\\01-01-2024_214412",
+    "size": {
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "tracing": "C:\\testLB2/evidencies/traces/01-01-2024_214412/80c9f643-a8dd-4037-a1d1-41b61e582cad.zip",
+  "viewport": {
+    "width": 1200,
+    "height": 800
+  }
+}</msg>
+<msg timestamp="20240101 21:44:12.183" level="INFO">Successfully created context and trace file will be saved to: C:\testLB2\evidencies\traces\01-01-2024_214412\80c9f643-a8dd-4037-a1d1-41b61e582cad.zip</msg>
+<msg timestamp="20240101 21:44:12.183" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': 'C:\\testLB2\\browser\\video\\\testLB2\\evidencies\\videos\\01-01-2024_214412', 'size': {'width': 1200, 'height': 800}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': 'C:\\testLB2/evidencies/traces/01-01-2024_214412/80c9f643-a8dd-4037-a1d1-41b61e582cad.zip', 'viewport': {'width': 1200, 'height': 800}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
+<status status="PASS" starttime="20240101 21:44:12.154" endtime="20240101 21:44:12.183"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:08.742" endtime="20240101 21:44:12.183"/>
+</kw>
+<kw name="Ir para o site Serve Rest Front" library="serve-rest-front">
+<kw name="New Page" library="Browser">
+<arg>url=${SITE_SERVE_REST}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20240101 21:44:17.722" level="INFO">Successfully initialized new page object and opened url: https://front.serverest.dev/</msg>
+<msg timestamp="20240101 21:44:17.724" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1200" height="800" controls&gt;&lt;source src="browser/video/%09estLB2/evidencies/videos/01-01-2024_214412/e73a5e333cd52b7593ea5c881cd01351.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
+<status status="PASS" starttime="20240101 21:44:12.194" endtime="20240101 21:44:17.725"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<var>${title}</var>
+<arg>==</arg>
+<arg>Front - ServeRest</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20240101 21:44:17.727" level="INFO">Title: 'Front - ServeRest'</msg>
+<msg timestamp="20240101 21:44:17.727" level="INFO">${title} = Front - ServeRest</msg>
+<status status="PASS" starttime="20240101 21:44:17.725" endtime="20240101 21:44:17.733"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${title}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240101 21:44:17.734" level="INFO">Front - ServeRest</msg>
+<status status="PASS" starttime="20240101 21:44:17.733" endtime="20240101 21:44:17.734"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:12.193" endtime="20240101 21:44:17.735"/>
+</kw>
+<kw name="Preencher os dados do novo usuário e Cadastrar" library="serve-rest-front">
+<kw name="Click" library="Browser">
+<arg>css=a[data-testid='cadastrar']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20240101 21:44:17.736" endtime="20240101 21:44:17.947"/>
+</kw>
+<kw name="Email" library="FakerLibrary">
+<var>${EMAIL}</var>
+<msg timestamp="20240101 21:44:17.948" level="INFO">${EMAIL} = nicolerosales@example.net</msg>
+<status status="PASS" starttime="20240101 21:44:17.947" endtime="20240101 21:44:17.948"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${EMAIL}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<msg timestamp="20240101 21:44:17.949" level="INFO">${EMAIL} = nicolerosales@example.net</msg>
+<status status="PASS" starttime="20240101 21:44:17.949" endtime="20240101 21:44:17.949"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>css=input[data-testid='nome']</arg>
+<arg>Mayara Fernandes</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20240101 21:44:17.951" level="INFO">Fills the text 'Mayara Fernandes' in the given field.</msg>
+<status status="PASS" starttime="20240101 21:44:17.950" endtime="20240101 21:44:18.107"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>css=input[data-testid='email']</arg>
+<arg>${EMAIL}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20240101 21:44:18.107" level="INFO">Fills the text 'nicolerosales@example.net' in the given field.</msg>
+<status status="PASS" starttime="20240101 21:44:18.107" endtime="20240101 21:44:18.237"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>css=input[data-testid='password']</arg>
+<arg>123456</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20240101 21:44:18.238" level="INFO">Fills the text '123456' in the given field.</msg>
+<status status="PASS" starttime="20240101 21:44:18.237" endtime="20240101 21:44:18.279"/>
+</kw>
+<kw name="Check Checkbox" library="Browser">
+<arg>css=input[data-testid='checkbox']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" starttime="20240101 21:44:18.279" endtime="20240101 21:44:18.404"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>xpath=//*[@id="root"]//button &gt;&gt; text="Cadastrar"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20240101 21:44:18.405" endtime="20240101 21:44:18.479"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:17.736" endtime="20240101 21:44:18.479"/>
+</kw>
+<kw name="Conferir usuário cadastrado com sucesso" library="serve-rest-front">
+<kw name="Wait For Elements State" library="Browser">
+<arg>h1</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20240101 21:44:22.420" level="INFO">Waited for Element with selector h1 at state visible</msg>
+<status status="PASS" starttime="20240101 21:44:18.480" endtime="20240101 21:44:22.421"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>h1</arg>
+<arg>==</arg>
+<arg>Bem Vindo Mayara Fernandes</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20240101 21:44:22.459" level="INFO">Text: 'Bem Vindo Mayara Fernandes'</msg>
+<status status="PASS" starttime="20240101 21:44:22.421" endtime="20240101 21:44:22.459"/>
+</kw>
+<kw name="Get Element States" library="Browser">
+<arg>css=button[data-testid='logout']</arg>
+<arg>validate</arg>
+<arg>value &amp; visible</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<msg timestamp="20240101 21:44:22.539" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<status status="PASS" starttime="20240101 21:44:22.459" endtime="20240101 21:44:22.539"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:18.480" endtime="20240101 21:44:22.539"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:08.740" endtime="20240101 21:44:22.540"/>
+</test>
+<kw name="Close Browser" library="Browser" type="TEARDOWN">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<msg timestamp="20240101 21:44:24.425" level="INFO">Closed browser</msg>
+<status status="PASS" starttime="20240101 21:44:24.321" endtime="20240101 21:44:24.427"/>
+</kw>
+<status status="PASS" starttime="20240101 21:44:05.744" endtime="20240101 21:44:24.427"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Serve-Rest-Front">Serve-Rest-Front</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,85 @@
+{"level":30,"time":"2024-01-02T02:44:08.211Z","pid":23304,"hostname":"Ericlos","msg":"Listening on 50371"}
+{"level":30,"time":"2024-01-02T02:44:08.737Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:08.738Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:08.743Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:08.743Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:08.752Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-01-02T02:44:12.148Z","pid":23304,"hostname":"Ericlos","msg":"Adding browser to stack: chromium, version: 120.0.6099.28"}
+{"level":30,"time":"2024-01-02T02:44:12.150Z","pid":23304,"hostname":"Ericlos","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-01-02T02:44:12.149Z","pid":23304,"hostname":"Ericlos","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-01-02T02:44:12.164Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-01-02T02:44:12.164Z","pid":23304,"hostname":"Ericlos","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-01-02T02:44:12.164Z","pid":23304,"hostname":"Ericlos","msg":"Trace file: C:\\testLB2\\evidencies\\traces\\01-01-2024_214412\\80c9f643-a8dd-4037-a1d1-41b61e582cad.zip"}
+{"level":30,"time":"2024-01-02T02:44:12.179Z","pid":23304,"hostname":"Ericlos","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-01-02T02:44:12.180Z","pid":23304,"hostname":"Ericlos","msg":"End of node method newContext"}
+{"level":30,"time":"2024-01-02T02:44:12.179Z","pid":23304,"hostname":"Ericlos","msg":"Changed active context"}
+{"level":30,"time":"2024-01-02T02:44:12.198Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-01-02T02:44:12.198Z","pid":23304,"hostname":"Ericlos","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-01-02T02:44:12.386Z","pid":23304,"hostname":"Ericlos","msg":"Video path: C:\\testLB2\\browser\\video\\\testLB2\\evidencies\\videos\\01-01-2024_214412\\e73a5e333cd52b7593ea5c881cd01351.webm"}
+{"level":30,"time":"2024-01-02T02:44:12.386Z","pid":23304,"hostname":"Ericlos","msg":"Changed active page"}
+{"level":30,"time":"2024-01-02T02:44:17.721Z","pid":23304,"hostname":"Ericlos","msg":"End of node method newPage"}
+{"level":30,"time":"2024-01-02T02:44:17.793Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-02T02:44:17.844Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=a[data-testid='cadastrar'] in page."}
+{"level":30,"time":"2024-01-02T02:44:17.945Z","pid":23304,"hostname":"Ericlos","msg":"End of node method click"}
+{"level":30,"time":"2024-01-02T02:44:17.953Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:17.953Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=input[data-testid='nome'] in page."}
+{"level":30,"time":"2024-01-02T02:44:18.110Z","pid":23304,"hostname":"Ericlos","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:18.115Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:18.115Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=input[data-testid='email'] in page."}
+{"level":30,"time":"2024-01-02T02:44:18.234Z","pid":23304,"hostname":"Ericlos","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:18.240Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:18.240Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=input[data-testid='password'] in page."}
+{"level":30,"time":"2024-01-02T02:44:18.278Z","pid":23304,"hostname":"Ericlos","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-02T02:44:18.281Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2024-01-02T02:44:18.281Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=input[data-testid='checkbox'] in page."}
+{"level":30,"time":"2024-01-02T02:44:18.404Z","pid":23304,"hostname":"Ericlos","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2024-01-02T02:44:18.407Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-02T02:44:18.407Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"root\"]//button >> text=\"Cadastrar\" in page."}
+{"level":30,"time":"2024-01-02T02:44:18.478Z","pid":23304,"hostname":"Ericlos","msg":"End of node method click"}
+{"level":30,"time":"2024-01-02T02:44:18.482Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-02T02:44:18.482Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2024-01-02T02:44:22.420Z","pid":23304,"hostname":"Ericlos","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-01-02T02:44:22.423Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getText"}
+{"level":30,"time":"2024-01-02T02:44:22.424Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2024-01-02T02:44:22.463Z","pid":23304,"hostname":"Ericlos","msg":"Retrieved text for element h1 containing Bem Vindo Mayara Fernandes"}
+{"level":30,"time":"2024-01-02T02:44:22.463Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getText"}
+{"level":30,"time":"2024-01-02T02:44:22.466Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-01-02T02:44:22.467Z","pid":23304,"hostname":"Ericlos","msg":"Strict mode is enabled, find Locator with css=button[data-testid='logout'] in page."}
+{"level":30,"time":"2024-01-02T02:44:22.538Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-01-02T02:44:22.578Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.583Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.586Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.588Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.591Z","pid":23304,"hostname":"Ericlos","msg":"Changed active context"}
+{"level":30,"time":"2024-01-02T02:44:22.591Z","pid":23304,"hostname":"Ericlos","msg":"Changing current active page: page=68189fd6-29c0-4ddd-a618-602484753dbd"}
+{"level":30,"time":"2024-01-02T02:44:22.591Z","pid":23304,"hostname":"Ericlos","msg":"Changed active page"}
+{"level":30,"time":"2024-01-02T02:44:22.594Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.598Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.601Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-01-02T02:44:22.602Z","pid":23304,"hostname":"Ericlos","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-01-02T02:44:22.604Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-01-02T02:44:22.605Z","pid":23304,"hostname":"Ericlos","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-01-02T02:44:22.608Z","pid":23304,"hostname":"Ericlos","msg":"Changing current active page: page=68189fd6-29c0-4ddd-a618-602484753dbd"}
+{"level":30,"time":"2024-01-02T02:44:22.608Z","pid":23304,"hostname":"Ericlos","msg":"Changed active page"}
+{"level":30,"time":"2024-01-02T02:44:22.612Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.616Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:22.618Z","pid":23304,"hostname":"Ericlos","msg":"Changed active context"}
+{"level":30,"time":"2024-01-02T02:44:22.618Z","pid":23304,"hostname":"Ericlos","msg":"Changing current active page: page=68189fd6-29c0-4ddd-a618-602484753dbd"}
+{"level":30,"time":"2024-01-02T02:44:22.618Z","pid":23304,"hostname":"Ericlos","msg":"Changed active page"}
+{"level":30,"time":"2024-01-02T02:44:22.621Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-01-02T02:44:24.273Z","pid":23304,"hostname":"Ericlos","msg":"Removed page=094cef72-c97a-4029-9202-67ef072a4aec from context=51f6da53-717d-4bc5-a5b4-016181afc57a page stack"}
+{"level":30,"time":"2024-01-02T02:44:24.322Z","pid":23304,"hostname":"Ericlos","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-01-02T02:44:24.329Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-01-02T02:44:24.424Z","pid":23304,"hostname":"Ericlos","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\ericl\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9968:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\ericl\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10588:59)
+    at PlaywrightServer.setTimeout (C:\Users\ericl\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10838:57)
+    at handleUnary (C:\Users\ericl\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-02T02:44:24.490Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:24.490Z","pid":23304,"hostname":"Ericlos","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-02T02:44:27.092Z","pid":23304,"hostname":"Ericlos","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-02T02:44:27.092Z","pid":23304,"hostname":"Ericlos","msg":"End of node method closeAllBrowsers"}

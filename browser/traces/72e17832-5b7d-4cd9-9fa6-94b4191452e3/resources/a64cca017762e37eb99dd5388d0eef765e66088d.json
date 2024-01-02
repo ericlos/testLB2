@@ -1,0 +1,61 @@
+{
+    "quantidade": 8,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Josue Lima",
+            "email": "josuelima@qa.com.br",
+            "password": "teste1",
+            "administrador": "true",
+            "_id": "6vX3NQEL3OwcbSen"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ydufsz@emailtest.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GvFgpUNGj6NyI7zt"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "zcndlj@emailtest.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HBrr6P0foa94NgMp"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "nicolerosales@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YOwP8hw81rh46guO"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jZhA47IRRx1WTcqi"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "bpooks@emailtest.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "oFQPLDUXD8ZVoAWf"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "jugslx@emailtest.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "r6LLQRHWOdYZ3a7u"
+        }
+    ]
+}
