@@ -1,0 +1,5 @@
+code execution:
+git status
+git add .
+git commit -m "run robot"
+git push
