@@ -9,7 +9,7 @@ jobs:
     strategy: ## matrix
       matrix:
         browser: [chromium, firefox, webkit]  
-        fail-fast: false
+      fail-fast: false
 
     steps:
       - name: Chechout
